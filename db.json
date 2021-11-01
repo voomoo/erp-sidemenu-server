@@ -1,0 +1,72 @@
+{
+  "divisions": [
+    {
+      "key": 1,
+      "value": "barishal",
+      "text": "Barishal"
+    },
+    {
+      "key": 2,
+      "value": "chittagong",
+      "text": "Chittagong"
+    },
+    {
+      "key": 3,
+      "value": "dhaka",
+      "text": "Dhaka"
+    },
+    {
+      "key": 4,
+      "value": "khulna",
+      "text": "Khulna"
+    }
+  ],
+  "barishal": [
+    {
+      "key": 1,
+      "value": "barishal",
+      "text": "Barishal"
+    },
+    {
+      "key": 2,
+      "value": "barguna",
+      "text": "Barguna"
+    }
+  ],
+  "chittagong": [
+    {
+      "key": 1,
+      "value": "bandarban",
+      "text": "Bandarban"
+    },
+    {
+      "key": 2,
+      "value": "chandpur",
+      "text": "Chandpur"
+    }
+  ],
+  "dhaka": [
+    {
+      "key": 1,
+      "value": "dhaka",
+      "text": "Dhaka"
+    },
+    {
+      "key": 2,
+      "value": "faridpur",
+      "text": "Faridpur"
+    }
+  ],
+  "khulna": [
+    {
+      "key": 1,
+      "value": "jessore",
+      "text": "Jessore"
+    },
+    {
+      "key": 2,
+      "value": "khulna",
+      "text": "Khulna"
+    }
+  ]
+}
