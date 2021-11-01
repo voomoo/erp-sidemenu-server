@@ -15,6 +15,6 @@
     {"menuTitle" : "HR/Payroll", "menuIcon" : 12},
     {"menuTitle" : "Timesheet", "menuIcon" : 13},
     {"menuTitle" : "User Setup", "menuIcon" : 14},
-    {"menuTitle" : "Company Setup", "menuIcon" : 15},
+    {"menuTitle" : "Company Setup", "menuIcon" : 15}
   ]
 }
