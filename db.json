@@ -41,7 +41,9 @@
       "submenu": [
         {"title": "Option1", "key": "submenu61"},
         {"title": "Option1", "key": "submenu62"}
-      ]    },
+      ]    }
+  ],
+  "PurchaseMenus": [
     {
       "menuTitle": "Customer",
       "key": "menu7",
@@ -82,7 +84,9 @@
         {"title": "Option1", "key": "submenu111"},
         {"title": "Option1", "key": "submenu112"}
       ]
-    },
+    }
+  ],
+  "InventoryMenus": [
     {
       "menuTitle": "Upload/Download",
       "key": "menu13",
