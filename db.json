@@ -1,20 +1,113 @@
 {
   "menus": [
-    {"menuTitle" : "Dashboard", "menuIcon" : 0},
-    {"menuTitle" : "Sales", "menuIcon" : 1},
-    {"menuTitle" : "Purchases", "menuIcon" : 2},
-    {"menuTitle" : "Stock", "menuIcon" : 3},
-    {"menuTitle" : "Accounting", "menuIcon" : 4},
-    {"menuTitle" : "Reports", "menuIcon" : 5},
-    {"menuTitle" : "Customer", "menuIcon" : 6},
-    {"menuTitle" : "Supplier", "menuIcon" : 7},
-    {"menuTitle" : "Product", "menuIcon" : 8},
-    {"menuTitle" : "Productions", "menuIcon" : 9},
-    {"menuTitle" : "CRM", "menuIcon" : 10},
-    {"menuTitle" : "Upload/Download", "menuIcon" : 11},
-    {"menuTitle" : "HR/Payroll", "menuIcon" : 12},
-    {"menuTitle" : "Timesheet", "menuIcon" : 13},
-    {"menuTitle" : "User Setup", "menuIcon" : 14},
-    {"menuTitle" : "Company Setup", "menuIcon" : 15}
+    {
+      "menuTitle": "Sales",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    },
+    {
+      "menuTitle": "Purchases",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    },
+    {
+      "menuTitle": "Stock",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "Accounting",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "Reports",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "Customer",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "Supplier",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "Product",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "Productions",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]    },
+    {
+      "menuTitle": "CRM",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    },
+    {
+      "menuTitle": "Upload/Download",
+      "expand": false
+    },
+    {
+      "menuTitle": "HR/Payroll",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    },
+    {
+      "menuTitle": "Timesheet",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    },
+    {
+      "menuTitle": "User Setup",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    },
+    {
+      "menuTitle": "Company Setup",
+      "expand": true,
+      "submenu": [
+        {"title": "Option1"},
+        {"title": "Option1"}
+      ]
+    }
   ]
 }
