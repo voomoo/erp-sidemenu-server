@@ -2,111 +2,126 @@
   "menus": [
     {
       "menuTitle": "Sales",
+      "key": "menu2",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu21"},
+        {"title": "Option1", "key": "submenu22"}
       ]
     },
     {
       "menuTitle": "Purchases",
+      "key": "menu3",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu31"},
+        {"title": "Option1", "key": "submenu32"}
       ]
     },
     {
       "menuTitle": "Stock",
+      "key": "menu4",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu41"},
+        {"title": "Option1", "key": "submenu42"}
       ]    },
     {
       "menuTitle": "Accounting",
+      "key": "menu5",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu51"},
+        {"title": "Option1", "key": "submenu52"}
       ]    },
     {
       "menuTitle": "Reports",
+      "key": "menu6",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu61"},
+        {"title": "Option1", "key": "submenu62"}
       ]    },
     {
       "menuTitle": "Customer",
+      "key": "menu7",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu71"},
+        {"title": "Option1", "key": "submenu72"}
       ]    },
     {
       "menuTitle": "Supplier",
+      "key": "menu8",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu81"},
+        {"title": "Option1", "key": "submenu82"}
       ]    },
     {
       "menuTitle": "Product",
+      "key": "menu9",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu91"},
+        {"title": "Option1", "key": "submenu92"}
       ]    },
     {
       "menuTitle": "Productions",
+      "key": "menu10",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu101"},
+        {"title": "Option1", "key": "submenu102"}
       ]    },
     {
       "menuTitle": "CRM",
+      "key": "menu12",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu111"},
+        {"title": "Option1", "key": "submenu112"}
       ]
     },
     {
       "menuTitle": "Upload/Download",
+      "key": "menu13",
       "expand": false
     },
     {
       "menuTitle": "HR/Payroll",
+      "key": "menu14",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu131"},
+        {"title": "Option1", "key": "submenu132"}
       ]
     },
     {
       "menuTitle": "Timesheet",
+      "key": "menu15",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu141"},
+        {"title": "Option1", "key": "submenu142"}
       ]
     },
     {
       "menuTitle": "User Setup",
+      "key": "menu16",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu151"},
+        {"title": "Option1", "key": "submenu152"}
       ]
     },
     {
       "menuTitle": "Company Setup",
+      "key": "menu17",
       "expand": true,
       "submenu": [
-        {"title": "Option1"},
-        {"title": "Option1"}
+        {"title": "Option1", "key": "submenu161"},
+        {"title": "Option1", "key": "submenu162"}
       ]
     }
   ]
