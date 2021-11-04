@@ -15,8 +15,8 @@
         "key": "2",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu31"},
-          {"title": "Option1", "key": "submenu32"}
+          {"title": "Option1", "key": "submenu31", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu32", "to": "/counter-sales"}
         ]
       },
       {
@@ -24,24 +24,24 @@
         "key": "3",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu41"},
-          {"title": "Option1", "key": "submenu42"}
+          {"title": "Option1", "key": "submenu41", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu42", "to": "/counter-sales"}
         ]    },
       {
         "menuTitle": "Accounting",
         "key": "4",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu51"},
-          {"title": "Option1", "key": "submenu52"}
+          {"title": "Option1", "key": "submenu51", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu52", "to": "/counter-sales"}
         ]    },
       {
         "menuTitle": "Reports",
         "key": "5",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu61"},
-          {"title": "Option1", "key": "submenu62"}
+          {"title": "Option1", "key": "submenu61", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu62", "to": "/counter-sales"}
         ]    }
     ],
     "PurchaseMenus": [
@@ -50,40 +50,40 @@
         "key": "6",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu71"},
-          {"title": "Option1", "key": "submenu72"}
+          {"title": "Option1", "key": "submenu71", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu72", "to": "/counter-sales"}
         ]    },
       {
         "menuTitle": "Supplier",
         "key": "7",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu81"},
-          {"title": "Option1", "key": "submenu82"}
+          {"title": "Option1", "key": "submenu81", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu82", "to": "/counter-sales"}
         ]    },
       {
         "menuTitle": "Product",
         "key": "8",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu91"},
-          {"title": "Option1", "key": "submenu92"}
+          {"title": "Option1", "key": "submenu91", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu92", "to": "/counter-sales"}
         ]    },
       {
         "menuTitle": "Productions",
         "key": "9",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu101"},
-          {"title": "Option1", "key": "submenu102"}
+          {"title": "Option1", "key": "submenu101", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu102", "to": "/counter-sales"}
         ]    },
       {
         "menuTitle": "CRM",
         "key": "10",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu111"},
-          {"title": "Option1", "key": "submenu112"}
+          {"title": "Option1", "key": "submenu111", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu112", "to": "/counter-sales"}
         ]
       }
     ],
@@ -98,8 +98,8 @@
         "key": "12",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu131"},
-          {"title": "Option1", "key": "submenu132"}
+          {"title": "Option1", "key": "submenu131", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu132", "to": "/counter-sales"}
         ]
       },
       {
@@ -107,8 +107,8 @@
         "key": "13",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu141"},
-          {"title": "Option1", "key": "submenu142"}
+          {"title": "Option1", "key": "submenu141", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu142", "to": "/counter-sales"}
         ]
       },
       {
@@ -116,8 +116,8 @@
         "key": "14",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu151"},
-          {"title": "Option1", "key": "submenu152"}
+          {"title": "Option1", "key": "submenu151", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu152", "to": "/counter-sales"}
         ]
       },
       {
@@ -125,8 +125,8 @@
         "key": "15",
         "expand": true,
         "submenu": [
-          {"title": "Option1", "key": "submenu161"},
-          {"title": "Option1", "key": "submenu162"}
+          {"title": "Option1", "key": "submenu161", "to": "/counter-sales"},
+          {"title": "Option1", "key": "submenu162", "to": "/counter-sales"}
         ]
       }
     ]
