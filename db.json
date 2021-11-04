@@ -1,132 +1,133 @@
 {
-  "Salesmenus": [
-    {
-      "menuTitle": "Sales",
-      "key": "1",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu21"},
-        {"title": "Option1", "key": "submenu22"}
-      ]
-    },
-    {
-      "menuTitle": "Purchases",
-      "key": "2",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu31"},
-        {"title": "Option1", "key": "submenu32"}
-      ]
-    },
-    {
-      "menuTitle": "Stock",
-      "key": "3",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu41"},
-        {"title": "Option1", "key": "submenu42"}
-      ]    },
-    {
-      "menuTitle": "Accounting",
-      "key": "4",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu51"},
-        {"title": "Option1", "key": "submenu52"}
-      ]    },
-    {
-      "menuTitle": "Reports",
-      "key": "5",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu61"},
-        {"title": "Option1", "key": "submenu62"}
-      ]    }
-  ],
-  "PurchaseMenus": [
-    {
-      "menuTitle": "Customer",
-      "key": "6",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu71"},
-        {"title": "Option1", "key": "submenu72"}
-      ]    },
-    {
-      "menuTitle": "Supplier",
-      "key": "7",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu81"},
-        {"title": "Option1", "key": "submenu82"}
-      ]    },
-    {
-      "menuTitle": "Product",
-      "key": "8",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu91"},
-        {"title": "Option1", "key": "submenu92"}
-      ]    },
-    {
-      "menuTitle": "Productions",
-      "key": "9",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu101"},
-        {"title": "Option1", "key": "submenu102"}
-      ]    },
-    {
-      "menuTitle": "CRM",
-      "key": "10",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu111"},
-        {"title": "Option1", "key": "submenu112"}
-      ]
-    }
-  ],
-  "InventoryMenus": [
-    {
-      "menuTitle": "Upload/Download",
-      "key": "11",
-      "expand": false
-    },
-    {
-      "menuTitle": "HR/Payroll",
-      "key": "12",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu131"},
-        {"title": "Option1", "key": "submenu132"}
-      ]
-    },
-    {
-      "menuTitle": "Timesheet",
-      "key": "13",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu141"},
-        {"title": "Option1", "key": "submenu142"}
-      ]
-    },
-    {
-      "menuTitle": "User Setup",
-      "key": "14",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu151"},
-        {"title": "Option1", "key": "submenu152"}
-      ]
-    },
-    {
-      "menuTitle": "Company Setup",
-      "key": "15",
-      "expand": true,
-      "submenu": [
-        {"title": "Option1", "key": "submenu161"},
-        {"title": "Option1", "key": "submenu162"}
-      ]
-    }
-  ]
-}
+    "Salesmenus": [
+      {
+        "menuTitle": "Sales",
+        "key": "1",
+        "expand": true,
+        "submenu": [
+          {"title": "Counter Sales", "key": "submenu21", "to": "/counter-sales"},
+          {"title": "POS Sales", "key": "submenu22", "to": "/pos-sales"},
+          {"title": "Online Sales", "key": "submenu23", "to": "/online-sales"}
+        ]
+      },
+      {
+        "menuTitle": "Purchases",
+        "key": "2",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu31"},
+          {"title": "Option1", "key": "submenu32"}
+        ]
+      },
+      {
+        "menuTitle": "Stock",
+        "key": "3",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu41"},
+          {"title": "Option1", "key": "submenu42"}
+        ]    },
+      {
+        "menuTitle": "Accounting",
+        "key": "4",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu51"},
+          {"title": "Option1", "key": "submenu52"}
+        ]    },
+      {
+        "menuTitle": "Reports",
+        "key": "5",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu61"},
+          {"title": "Option1", "key": "submenu62"}
+        ]    }
+    ],
+    "PurchaseMenus": [
+      {
+        "menuTitle": "Customer",
+        "key": "6",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu71"},
+          {"title": "Option1", "key": "submenu72"}
+        ]    },
+      {
+        "menuTitle": "Supplier",
+        "key": "7",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu81"},
+          {"title": "Option1", "key": "submenu82"}
+        ]    },
+      {
+        "menuTitle": "Product",
+        "key": "8",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu91"},
+          {"title": "Option1", "key": "submenu92"}
+        ]    },
+      {
+        "menuTitle": "Productions",
+        "key": "9",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu101"},
+          {"title": "Option1", "key": "submenu102"}
+        ]    },
+      {
+        "menuTitle": "CRM",
+        "key": "10",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu111"},
+          {"title": "Option1", "key": "submenu112"}
+        ]
+      }
+    ],
+    "InventoryMenus": [
+      {
+        "menuTitle": "Upload/Download",
+        "key": "11",
+        "expand": false
+      },
+      {
+        "menuTitle": "HR/Payroll",
+        "key": "12",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu131"},
+          {"title": "Option1", "key": "submenu132"}
+        ]
+      },
+      {
+        "menuTitle": "Timesheet",
+        "key": "13",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu141"},
+          {"title": "Option1", "key": "submenu142"}
+        ]
+      },
+      {
+        "menuTitle": "User Setup",
+        "key": "14",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu151"},
+          {"title": "Option1", "key": "submenu152"}
+        ]
+      },
+      {
+        "menuTitle": "Company Setup",
+        "key": "15",
+        "expand": true,
+        "submenu": [
+          {"title": "Option1", "key": "submenu161"},
+          {"title": "Option1", "key": "submenu162"}
+        ]
+      }
+    ]
+  }
