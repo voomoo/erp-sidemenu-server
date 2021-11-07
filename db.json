@@ -1,133 +1,195 @@
 {
-    "Salesmenus": [
-      {
-        "menuTitle": "Sales",
-        "key": "1",
-        "expand": true,
-        "submenu": [
-          {"title": "Counter Sales", "key": "submenu21", "to": "/counter-sales"},
-          {"title": "POS Sales", "key": "submenu22", "to": "/pos-sales"},
-          {"title": "Online Sales", "key": "submenu23", "to": "/online-sales"}
-        ]
-      },
-      {
-        "menuTitle": "Purchases",
-        "key": "2",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu31", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu32", "to": "/counter-sales"}
-        ]
-      },
-      {
-        "menuTitle": "Stock",
-        "key": "3",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu41", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu42", "to": "/counter-sales"}
-        ]    },
-      {
-        "menuTitle": "Accounting",
-        "key": "4",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu51", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu52", "to": "/counter-sales"}
-        ]    },
-      {
-        "menuTitle": "Reports",
-        "key": "5",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu61", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu62", "to": "/counter-sales"}
-        ]    }
-    ],
-    "PurchaseMenus": [
-      {
-        "menuTitle": "Customer",
-        "key": "6",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu71", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu72", "to": "/counter-sales"}
-        ]    },
-      {
-        "menuTitle": "Supplier",
-        "key": "7",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu81", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu82", "to": "/counter-sales"}
-        ]    },
-      {
-        "menuTitle": "Product",
-        "key": "8",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu91", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu92", "to": "/counter-sales"}
-        ]    },
-      {
-        "menuTitle": "Productions",
-        "key": "9",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu101", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu102", "to": "/counter-sales"}
-        ]    },
-      {
-        "menuTitle": "CRM",
-        "key": "10",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu111", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu112", "to": "/counter-sales"}
-        ]
-      }
-    ],
-    "InventoryMenus": [
-      {
-        "menuTitle": "Upload/Download",
-        "key": "11",
-        "expand": false
-      },
-      {
-        "menuTitle": "HR/Payroll",
-        "key": "12",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu131", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu132", "to": "/counter-sales"}
-        ]
-      },
-      {
-        "menuTitle": "Timesheet",
-        "key": "13",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu141", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu142", "to": "/counter-sales"}
-        ]
-      },
-      {
-        "menuTitle": "User Setup",
-        "key": "14",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu151", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu152", "to": "/counter-sales"}
-        ]
-      },
-      {
-        "menuTitle": "Company Setup",
-        "key": "15",
-        "expand": true,
-        "submenu": [
-          {"title": "Option1", "key": "submenu161", "to": "/counter-sales"},
-          {"title": "Option1", "key": "submenu162", "to": "/counter-sales"}
-        ]
-      }
-    ]
-  }
+  "Salesmenus": [
+    {
+      "menuTitle": "Sales",
+      "key": "1",
+      "expand": true,
+      "submenu": [
+        {"title": "Counter Sales", "key": "submenu21", "to": "/counter-sales"},
+        {"title": "POS Sales", "key": "submenu22", "to": "/pos-sales"},
+        {"title": "Online Sales", "key": "submenu23", "to": "/online-sales"},
+        {"title": "Branch Transfer", "key": "submenu24", "to": "/branch-transfer"},
+        {"title": "Sales (Mobile)", "key": "submenu25", "to": "/sales-mobile"},
+        {"title": "Sales (Instalments)", "key": "submenu26", "to": "/sales-instalments"},
+        {"title": "Sales (Parlour Service)", "key": "submenu27", "to": "/sales-parlour"},
+        {"title": "Sales Return", "key": "submenu28", "to": "/sales-return"},
+        {"title": "Special Discount", "key": "submenu29", "to": "/special-discount"},
+        {"title": "COD Collection/Confirm Delivery", "key": "submenu210", "to": "/cod"},
+        {"title": "Manage Collection", "key": "submenu211", "to": "/manage-collection"},
+        {"title": "Manage Delivery", "key": "submenu212", "to": "/manage-delivery"}
+      ]
+    },
+    {
+      "menuTitle": "Purchases",
+      "key": "2",
+      "expand": true,
+      "submenu": [
+        {"title": "Purchase", "key": "submenu31", "to": "/purchase"},
+        {"title": "Purchase Return", "key": "submenu32", "to": "/purchase-return"},
+        {"title": "Product Keys", "key": "submenu33", "to": "/purchase-keys"},
+        {"title": "Product", "key": "submenu34", "to": "/product"},
+        {"title": "Generate Barcode", "key": "submenu35", "to": "/generate-barcode"}
+      ]
+    },
+    {
+      "menuTitle": "Stock",
+      "key": "3",
+      "expand": true,
+      "submenu": [
+        {"title": "Current Stock", "key": "submenu41", "to": "/current-stock"},
+        {"title": "Current Stock (IMEI)", "key": "submenu42", "to": "/current-stock-imei"},
+        {"title": "Opening Stock", "key": "submenu43", "to": "/opening-stock"},
+        {"title": "Transfer Accept", "key": "submenu44", "to": "/transfer-accept"},
+        {"title": "Stock Adjust", "key": "submenu45", "to": "/stock-adjust"}
+      ]
+    },
+    {
+      "menuTitle": "Accounting",
+      "key": "4",
+      "expand": true,
+      "submenu": [
+        {"title": "Voucher Entry", "key": "submenu51", "to": "/voucher-entry"},
+        {"title": "Journal Entry", "key": "submenu52", "to": "/journal-entry"},
+        {"title": "Fund Transfer", "key": "submenu53", "to": "/fund-transfer"},
+        {"title": "Project/Cost Center", "key": "submenu54", "to": "/cost-center"},
+        {"title": "Time Sheet", "key": "submenu55", "to": "/time-sheet"},
+        {"title": "Chart of Accounts", "key": "submenu56", "to": "/chart-accounts"},
+        {"title": "EMI Charts", "key": "submenu57", "to": "/emi-charts"},
+        {"title": "Year Closing", "key": "submenu58", "to": "/year-closing"}
+      ]
+    },
+    {
+      "menuTitle": "Reports",
+      "key": "5",
+      "expand": true,
+      "submenu": [
+        {"title": "Sales", "key": "submenu61", "to": "/sales-report"},
+        {"title": "Stock/Inventory", "key": "submenu62", "to": "/inventory-report"},
+        {"title": "Audit Trail", "key": "submenu63", "to": "/audit-trail"},
+        {"title": "Time Sheet", "key": "submenu64", "to": "/time-sheet-report"},
+        {"title": "Customer Due (Receivable)", "key": "submenu65", "to": "/due-report"},
+        {"title": "Supplier Due (Payable)", "key": "submenu66", "to": "/payable-report"},
+        {"title": "Production", "key": "submenu67", "to": "/production-report"},
+        {"title": "Customer Analysis", "key": "submenu68", "to": "/customer-analysis"},
+        {"title": "Billing Report", "key": "submenu69", "to": "/billing-report"},
+        {"title": "Ledger Report", "key": "submenu610", "to": "/ledger-report"},
+        {"title": "Financial Report", "key": "submenu611", "to": "/financial-report"}
+      ]    }
+  ],
+  "PurchaseMenus": [
+    {
+      "menuTitle": "Customer",
+      "key": "6",
+      "expand": true,
+      "submenu": [
+        {"title": "Customers", "key": "submenu71", "to": "/customers"},
+        {"title": "Customer Due (Receivable)", "key": "submenu72", "to": "/customer-due"},
+        {"title": "Received Voucher", "key": "submenu73", "to": "/received-voucher"},
+        {"title": "Manage Commission", "key": "submenu74", "to": "/manage-commission"},
+        {"title": "Route", "key": "submenu75", "to": "/route"}
+      ]    },
+    {
+      "menuTitle": "Supplier",
+      "key": "7",
+      "expand": true,
+      "submenu": [
+        {"title": "Suppliers", "key": "submenu81", "to": "/suppliers"},
+        {"title": "Supplier Due (Payable)", "key": "submenu82", "to": "/supplier-due"},
+        {"title": "Commission", "key": "submenu83", "to": "/commission"},
+        {"title": "Payment Voucher", "key": "submenu84", "to": "/payment-voucher"},
+        {"title": "Commission Voucher", "key": "submenu85", "to": "/commission-voucher"}
+      ]    },
+    {
+      "menuTitle": "Product",
+      "key": "8",
+      "expand": true,
+      "submenu": [
+        {"title": "Product Entry", "key": "submenu91", "to": "/product-entry"},
+        {"title": "Product Keys", "key": "submenu92", "to": "/product-keys"},
+        {"title": "Generate Barcode", "key": "submenu93", "to": "/generate-barcodes"}
+      ]    },
+    {
+      "menuTitle": "Productions",
+      "key": "9",
+      "expand": true,
+      "submenu": [
+        {"title": "Manage Production", "key": "submenu101", "to": "/manage-production"},
+        {"title": "Production Formula", "key": "submenu102", "to": "/production-formula"}
+      ]    },
+    {
+      "menuTitle": "CRM",
+      "key": "10",
+      "expand": true,
+      "submenu": [
+        {"title": "Send SMS", "key": "submenu111", "to": "/send-sms"},
+        {"title": "SMS History", "key": "submenu112", "to": "/sms-history"},
+        {"title": "Manage Group", "key": "submenu113", "to": "/manage-group"},
+        {"title": "Manage Category", "key": "submenu114", "to": "/manage-category"},
+        {"title": "Contacts", "key": "submenu115", "to": "/contacts"}
+      ]
+    }
+  ],
+  "InventoryMenus": [
+    {
+      "menuTitle": "Upload/Download",
+      "key": "11",
+      "expand": false
+    },
+    {
+      "menuTitle": "HR/Payroll",
+      "key": "12",
+      "expand": true,
+      "submenu": [
+        {"title": "Employees", "key": "submenu131", "to": "/employees"},
+        {"title": "Department", "key": "submenu132", "to": "/department"},
+        {"title": "Designation", "key": "submenu133", "to": "/designation"},
+        {"title": "Salary Category", "key": "submenu134", "to": "/salary-category"},
+        {"title": "Job Details", "key": "submenu135", "to": "/job-details"},
+        {"title": "Salary Loan", "key": "submenu136", "to": "/salary-loan"},
+        {"title": "Generate Salary", "key": "submenu137", "to": "/generate-salary"},
+        {"title": "Time Sheet", "key": "submenu138", "to": "/time-sheet-hr"},
+        {"title": "Week", "key": "submenu139", "to": "/week"},
+        {"title": "Receivable/Advance", "key": "submenu1310", "to": "/receivable-advance"},
+        {"title": "Received Voucher", "key": "submenu1311", "to": "/receivable-voucher"}
+      ]
+    },
+    {
+      "menuTitle": "Timesheet",
+      "key": "13",
+      "expand": true,
+      "submenu": [
+        {"title": "Time Sheet", "key": "submenu141", "to": "/time-sheet-time-sheet"},
+        {"title": "Week", "key": "submenu142", "to": "/week-time-sheet"},
+        {"title": "Project/Const Center", "key": "submenu143", "to": "/const-center"},
+        {"title": "Client", "key": "submenu144", "to": "/client"},
+        {"title": "Employees", "key": "submenu145", "to": "/employees"},
+        {"title": "Department", "key": "submenu146", "to": "/department"},
+        {"title": "Designation", "key": "submenu147", "to": "/designation"},
+        {"title": "Salary Category", "key": "submenu148", "to": "/salary-category"},
+        {"title": "Job Details", "key": "submenu149", "to": "/job-details"},
+        {"title": "Report", "key": "submenu1410", "to": "/report-time-sheet"}
+      ]
+    },
+    {
+      "menuTitle": "User Setup",
+      "key": "14",
+      "expand": true,
+      "submenu": [
+        {"title": "User Management", "key": "submenu151", "to": "/user-management"},
+        {"title": "User Access", "key": "submenu152", "to": "/user-access"}
+      ]
+    },
+    {
+      "menuTitle": "Company Setup",
+      "key": "15",
+      "expand": true,
+      "submenu": [
+        {"title": "SMS Template", "key": "submenu161", "to": "/sms-template"},
+        {"title": "Email Template", "key": "submenu162", "to": "/email-template"},
+        {"title": "Sms Preferences", "key": "submenu163", "to": "/sms-preferences"},
+        {"title": "Branch Management", "key": "submenu164", "to": "/branch-management"},
+        {"title": "Business Management", "key": "submenu165", "to": "/business-management"}
+      ]
+    }
+  ]
+}
